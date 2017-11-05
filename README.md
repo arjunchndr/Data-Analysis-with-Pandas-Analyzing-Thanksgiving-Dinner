@@ -26,7 +26,7 @@ Here are descriptions of some of the most important columns of the dataset:
 
 ## Getting Started
 
-Download the [Jupyter notebook](https://github.com/arjunchndr/Star-Wars-Survey/blob/master/Star%20Wars%20Survey.ipynb) if you have all the dependencies listed below. 
+Download the [Jupyter notebook](https://github.com/arjunchndr/Data-Analysis-with-Pandas-Analyzing-Thanksgiving-Dinner/blob/master/Analyzing%2BThanksgiving%2BDinner.ipynb) if you have all the dependencies listed below. 
 
 ## Built With
 

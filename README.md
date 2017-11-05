@@ -1,70 +1,36 @@
-### Thanksgiving  2015
+### Analyzing Thanksgiving Dinner 
 
-This directory contains the data behind the story [Here’s What Your Part of America Eats On Thanksgiving](http://fivethirtyeight.com/features/heres-what-your-part-of-america-eats-on-thanksgiving).
+In this project, I analyzed data on Thanksgiving dinner in the US. The dataset came from [FiveThirtyEight](http://fivethirtyeight.com/), and can be found [here](https://github.com/fivethirtyeight/data/tree/master/thanksgiving-2015).
 
-Using a SurveyMonkey poll, we asked 1,058 respondents on Nov. 17, 2015 the following questions about their Thanksgiving:
+The dataset is stored in the **thanksgiving.csv** file. It contains **1058** responses to an online survey about what Americans eat for Thanksgiving dinner. Each survey respondent was asked questions about what they typically eat for Thanksgiving, along with some demographic questions, like their gender, income, and location. This dataset helped me discover regional and income-based patterns in what Americans eat for Thanksgiving dinner.
 
-* Do you celebrate Thanksgiving?
-* What is typically the main dish at your Thanksgiving dinner?	
-	+ Other (please specify)
-* How is the main dish typically cooked?
-	+ Other (please specify)
-* What kind of stuffing/dressing do you typically have?	
-	+ Other (please specify)
-* What type of cranberry sauce do you typically have? 
-	+ Other (please specify)
-* Do you typically have gravy?
-* Which of these side dishes are typically served at your Thanksgiving dinner? Please select all that apply.
-	+ Brussel sprouts
-	+ Carrots
-	+ Cauliflower
-	+ Corn
-	+ Cornbread
-	+ Fruit salad
-	+ Green beans/green bean casserole
-	+ Macaroni and cheese
-	+ Mashed potatoes
-	+ Rolls/biscuits
-	+ Vegetable salad
-	+ Yams/sweet potato casserole
-	+ Other (please specify)
-* Which type of pie is typically served at your Thanksgiving dinner? Please select all that apply. 
-	+ Apple
-	+ Buttermilk
-	+ Cherry
-	+ Chocolate
-	+ Coconut cream
-	+ Key lime
-	+ Peach
-	+ Pecan
-	+ Pumpkin
-	+ Sweet Potato
-	+ None 
-	+ Other (please specify)
-* Which of these desserts do you typically have at Thanksgiving dinner? Please select all that apply.
-	+ Apple cobbler
-	+ Blondies
-	+ Brownies
-	+ Carrot cake
-	+ Cheesecake
-	+ Cookies
-	+ Fudge
-	+ Ice cream
-	+ Peach cobbler
-	+ None
-	+ Other (please specify)
-* Do you typically pray before or after the Thanksgiving meal?
-* How far will you travel for Thanksgiving?
-* Will you watch any of the following programs on Thanksgiving? Please select all that apply.  
-	+ Macy's Parade
-* What's the age cutoff at your "kids' table" at Thanksgiving?
-* Have you ever tried to meet up with hometown friends on Thanksgiving night?
-* Have you ever attended a "Friendsgiving?"
-* Will you shop any Black Friday sales on Thanksgiving Day?
-* Do you work in retail?
-* Will you employer make you work on Black Friday?
-* How would you describe where you live? 
-* Age
-* What is your gender?
-* How much total combined money did all members of your HOUSEHOLD earn last year?
-* US Region
+The dataset has **65** columns, and **1058** rows. Most of the column names are questions, and most of the column values are string responses to the questions. Most of the columns are categorical, as a survey respondent had to select one of a few options. For example, one of the first column names is **What is typically the main dish at your Thanksgiving dinner?**. The potential responses are:
+
+- Turkey
+- Other (please specify)
+- Ham/Pork
+- Tofurkey
+- Chicken
+- Roast beef
+- I don't know
+- Turducken
+
+Most of the columns follow the same question/response format as the above. There are also quite a few **NaN** values in the columns, which occurred when a survey respondent didn't fill out a question because they didn't want to, or it didn't apply to them.
+
+Here are descriptions of some of the most important columns of the dataset:
+- **RespondentID** -- a unique ID of the respondent to the survey.
+- **Do you celebrate Thanksgiving?** -- a **Yes**/**No** reponse to the question.
+- **How would you describe where you live?** -- responses are **Suburban**, **Urban**, and **Rural**.
+- **Age** -- resposes are one of several categories, such as **18-29**, and **30-44**.
+- **How much total combined money did all members of your HOUSEHOLD earn last year?** -- one of several categories, such as **\$75,000** to **\$99,999**.
+
+## Getting Started
+
+Download the [Jupyter notebook](https://github.com/arjunchndr/Star-Wars-Survey/blob/master/Star%20Wars%20Survey.ipynb) if you have all the dependencies listed below. 
+
+## Built With
+
+* [Python 3.6.3](https://www.python.org/downloads/) 
+* [Pandas](http://pandas.pydata.org/pandas-docs/stable/install.html) 
+* [Jupyter 5.1.0](http://jupyter.org/install.html) 
+* [Matplotlib 2.1.0](https://matplotlib.org/2.1.0/index.html)

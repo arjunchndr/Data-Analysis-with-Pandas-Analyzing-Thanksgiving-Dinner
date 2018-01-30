@@ -30,7 +30,8 @@ Download the [Jupyter notebook](https://github.com/arjunchndr/Data-Analysis-with
 
 ## Built With
 
-* [Python 3.6.3](https://www.python.org/downloads/) 
-* [Pandas](http://pandas.pydata.org/pandas-docs/stable/install.html) 
-* [Jupyter 5.1.0](http://jupyter.org/install.html) 
-* [Matplotlib 2.1.0](https://matplotlib.org/2.1.0/index.html)
+* [Anaconda](https://www.anaconda.com/download/) - Distribution pre-installed with Python and its associated packages
+  * [Python 3.6.3](https://www.python.org/downloads/) 
+  * [Pandas](http://pandas.pydata.org/pandas-docs/stable/install.html) 
+  * [Jupyter 5.1.0](http://jupyter.org/install.html) 
+  * [Matplotlib 2.1.0](https://matplotlib.org/2.1.0/index.html)
